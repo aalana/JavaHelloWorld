@@ -1,4 +1,5 @@
 FROM java:7
+MAINTAINER Albert Alana
 
 COPY src /home/root/javahelloworld/src
 WORKDIR /home/root/javahelloworld
